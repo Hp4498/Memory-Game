@@ -83,7 +83,7 @@ li {
 footer {
   font-family: "Press Start 2P", cursive;
   font-weight: lighter;
-  /* color: #fef2bf; */
+  
   font-size: 0.8rem;
   padding: 1% 3%;
 }
@@ -127,5 +127,6 @@ footer {
   footer {
     font-size: 0.8rem;
     padding: 20% 0 0 0;
+    color: #fef2bf;
   }
 }
