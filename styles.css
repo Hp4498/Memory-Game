@@ -95,8 +95,13 @@ footer {
 
 @media screen and (max-width: 400px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
+  
+  li{
+  font-size:0.5rem;
+  }
+  
   .btn {
     margin: 30px 4px 0;
     height: 80px;
