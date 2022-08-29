@@ -12,7 +12,7 @@ var started = false; //Setting this to keep track of the game. To check whether 
 var level = 0; // To set the level of the game as it proceeds.
 
 //To detect the first key press in keyboard
-$(document).on("keydown",function () {
+$(document).click(function () {
   if (!started) {
     $("#info-title").text("Level " + level); //To update the h2 to value of Level
     nextSequence();
