@@ -94,17 +94,22 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+ body {
+    background-color: rgb(34, 76, 78);
+  }
   h1 {
     font-size: 1rem;
+    
   }
-  
-  li{
-  font-size:0.5rem;
+
+  li {
+    font-size: 0.5rem;
+    text-align: left;
+  line-height: 1.5;
   }
-  
   .btn {
     margin: 30px 4px 0;
-    height: 80px;
+    height: 100px;
     width: 80px;
     border: 6px solid black;
     border-radius: 30%;
