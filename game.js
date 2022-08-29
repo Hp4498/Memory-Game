@@ -40,8 +40,9 @@ $(".btn").click(function () {
   userClickedPattern.push(userChoosenColour); //To put the user choosen colours in an array.
   playSound(userChoosenColour);
   animatePress(userChoosenColour);
-
-  checkAnswer(userClickedPattern.length - 1); //Call the function by passing the index of the last choosen answer by user.
+if(level!==0){
+  checkAnswer(userClickedPattern.length - 1);
+}//Call the function by passing the index of the last choosen answer by user.
 });
 
 function checkAnswer(currentLevel) {
