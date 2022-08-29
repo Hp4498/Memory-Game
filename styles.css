@@ -95,7 +95,7 @@ footer {
 
 @media screen and (max-width: 450px) {
   body {
-    background-color: rgb(46, 93, 96);
+    background-color: rgb(38, 109, 114);
   }
   h1 {
     margin: 20px;
@@ -111,6 +111,11 @@ footer {
     text-align: left;
     line-height: 1.5;
   }
+  a {
+    display: inline-block;
+    margin-top: 10%;
+  }
+  
   .btn {
     margin: 30px 4px 0;
     height: 100px;
