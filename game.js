@@ -11,8 +11,20 @@ var started = false; //Setting this to keep track of the game. To check whether 
 
 var level = 0; // To set the level of the game as it proceeds.
 
+
+$(document).click(function (event) {
+  console.log(event.target);
+  if(!buttonColours.includes(event.target.id)){// 🚩The game won't start if you click on the button.... but will start if you click any where else
+    if (!started) {
+      $("#info-title").text("Level " + level); //To update the h2 to value of Level
+      nextSequence();
+      started = true; //Set the started to true once the keyboard key has been pressed for the first time.
+    }
+  }
+});
+
 //To detect the first key press in keyboard
-$(document).on("click keydown",function() {
+$(document).keydown(function() {
   if (!started) {
     $("#info-title").text("Level " + level); //To update the h2 to value of Level
     nextSequence();
