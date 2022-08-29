@@ -95,9 +95,10 @@ footer {
 
 @media screen and (max-width: 450px) {
   body {
-    background-color: rgb(34, 76, 78);
+    background-color: rgb(46, 93, 96);
   }
   h1 {
+    margin: 20px;
     font-size: 2rem;
   }
 
@@ -120,5 +121,6 @@ footer {
   footer {
     font-size: 0.8rem;
     padding: 25%;
+    color: #fef2bf;
   }
 }
