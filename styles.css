@@ -123,6 +123,11 @@ footer {
     border: 6px solid black;
     border-radius: 30%;
   }
+  
+  footer{
+    color:black;
+  }
+  
   .mobile-version{
     font-size: 0.8rem;
     padding: 20% 0 0 0;
