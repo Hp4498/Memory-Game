@@ -93,29 +93,32 @@ footer {
   background-color: grey;
 }
 
-@media screen and (min-device-aspect-ratio: 9/16) {
- body {
+@media screen and (max-width: 400px) {
+  body {
     background-color: rgb(34, 76, 78);
   }
   h1 {
+    font-size: 2rem;
+  }
+
+  #info-title {
     font-size: 1rem;
-    
   }
 
   li {
     font-size: 0.5rem;
     text-align: left;
-  line-height: 1.5;
+    line-height: 1.5;
   }
   .btn {
     margin: 30px 4px 0;
     height: 100px;
-    width: 80px;
+    width: 100px;
     border: 6px solid black;
     border-radius: 30%;
   }
   footer {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     padding: 25%;
   }
 }
